@@ -1,13 +1,11 @@
-# Pricing & Settings
-In this section you can find code snippets for deploying Azure Security Center pricing & settings configurations programmatically and at scale.
+# Logic App sample to remediate "Endpoint protection solution should be installed on virtual machines"
 
-# Questions
+This Logic App deployment template is provided to apply endpoint protection to VMs. It will loop through all Security Center recommendations in all subscriptions to find VMs without endpoint protection, then intall it.
 
-For questions and feedback, please contact [acs_community@microsoft.com](asc_community@microsoft.com)
-
-# Azure Resource Graph queries 
-
-If you're interested in getting ASC pricing information via the Azure Resource Graph, please have a look at [these examples](https://github.com/Azure/Azure-Security-Center/tree/master/ARG%20queries/Starter%20Kit%20-%20ASC%20Pricing)
+<a
+href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Security-Center%2Fmaster%2FRemediation%2520scripts%2FEndpoint%2520protection%2520solution%2520should%2520be%2520installed%2520on%2520virtual%2520machines%2FLogic%2520App%2FEnable-Endpoint-Protection.json" target="_blank">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
 
 # Contributing
 
